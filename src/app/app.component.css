@@ -1,0 +1,11 @@
+.nav-link {
+  font-size: large;
+}
+
+.crop {
+  overflow: hidden;
+}
+
+div {
+  cursor: pointer;
+}
