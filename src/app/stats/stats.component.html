@@ -4,16 +4,31 @@
     <div class="row">
       <div class="table-responsive">
         <table class="table">
-          <tr>
-            <th></th>
-            <th></th>
-            <th scope="col">{{ tableHeader.metaData.items["202108"].name }}</th>
-            <th scope="col">{{ tableHeader.metaData.items["202109"].name }}</th>
-            <th scope="col">{{ tableHeader.metaData.items["202110"].name }}</th>
-            <th scope="col">{{ tableHeader.metaData.items["202111"].name }}</th>
-            <th scope="col">{{ tableHeader.metaData.items["202112"].name }}</th>
-            <th scope="col">{{ tableHeader.metaData.items["202201"].name }}</th>
-          </tr>
+          <thead>
+            <tr>
+              <th></th>
+              <th></th>
+              <th scope="col">
+                {{ tableHeader.metaData.items["202108"].name }}
+              </th>
+              <th scope="col">
+                {{ tableHeader.metaData.items["202109"].name }}
+              </th>
+              <th scope="col">
+                {{ tableHeader.metaData.items["202110"].name }}
+              </th>
+              <th scope="col">
+                {{ tableHeader.metaData.items["202111"].name }}
+              </th>
+              <th scope="col">
+                {{ tableHeader.metaData.items["202112"].name }}
+              </th>
+              <th scope="col">
+                {{ tableHeader.metaData.items["202201"].name }}
+              </th>
+            </tr>
+          </thead>
+          <tbody>
           <tr>
             <th scope="row">
               {{ tableHeader.metaData.items.jUb8gELQApl.name }}
@@ -152,6 +167,7 @@
               {{ tableRow.rows[26][3] }}
             </td>
           </tr>
+          </tbody>
         </table>
       </div>
     </div>
